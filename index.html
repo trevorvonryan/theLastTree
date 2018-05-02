@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<style>
+body {
+  background-color:#000;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/*.style_iFrame {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}*/
+#gameContainer { 
+  justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+#loadingContainer {
+    position: absolute;
+    width:100%;
+    top: 50%;
+    width: 100%;
+}
+.style_paragraph, .style_loading {
+    text-align: center;
+    margin:auto;
+    width:50%;
+    color: white;
+    font-weight: 200;
+    font-size: 2vmin;
+    font-family: 'Comfortaa';
+    line-height: 0.5;
+    display:block;
+}
+.style_loading {
+  font-size: 100%;
+  line-height: 1.0;
+}
+</style>
+
+<html lang="en-us">
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>the last tree</title>
+
+    <!--<script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/theLastTree_0-0-0.json");
+    </script>-->
+    <script src="Build/UnityLoader.js"></script>
+    <script src="Build/NewUnityLoader.js"></script>
+    <script>InstantiateUnityLoader("Build/theLastTree_0-0-0.json");</script>
+
+  </head>
+  <body>
+      <div id="gameContainer" style="width: 100%; height: 100%"></div>
+      <div id="loadingContainer"><span class="style_loading">loading</span></div>
+  </body>
+</html>

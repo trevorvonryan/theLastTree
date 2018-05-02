@@ -1,0 +1,13 @@
+{
+"companyName": "trevor von ryan",
+"productName": "the last tree",
+"dataUrl": "theLastTree_0-0-0.data.unityweb",
+"asmCodeUrl": "theLastTree_0-0-0.asm.code.unityweb",
+"asmMemoryUrl": "theLastTree_0-0-0.asm.memory.unityweb",
+"asmFrameworkUrl": "theLastTree_0-0-0.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
